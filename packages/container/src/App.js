@@ -8,8 +8,8 @@ const generateClassName = createGenerateClassName({
     productionPrefix: 'co'
 });
 
-const MarketingLazy = lazy(() => import("./components/MarketingApp"))
-const AuthLazy = lazy(() => import("./components/AuthApp"))
+const MarketingLazy = lazy(() => import("./components/MarketingApp"));
+const AuthLazy = lazy(() => import("./components/AuthApp"));
 
 
 export default () => {
